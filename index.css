@@ -15,6 +15,9 @@
 .left{
     display: flex;
 }
+.profileName{
+    font-size: 1.3rem;
+}
 i{
     margin: 0 0.8rem;
 }
@@ -26,6 +29,8 @@ i{
 }
 .profilestatus img{
     border-radius: 50%;
+    height: 90px;
+    width: 90px;
 }
 .profilestats{
     text-align: center;
