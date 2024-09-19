@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   background: black;
+   color: white;
+   font-family: roboto; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.left{
+    display: flex;
+}
+i{
+    margin: 0 0.8rem;
+}
+.profilestatus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+.profilestatus img{
+    border-radius: 50%;
+}
+.profilestats{
+    text-align: center;
+}
+.bio{
+    padding: 0.8rem;
+}
+.bio span{
+    font-weight:lighter;
+    font-size: small;
+    color: darkgray;
+}
+.bio p{
+    font-size: 0.9rem;
+}
+.bio a{
+    font-size: 0.8rem;
+    color:aliceblue;
+}
+.stories{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.story{
+    text-align: center;
+}
+.stories img{
+    border-radius: 50%;
+    height: 60px;
+    width:60px;
+}
+.posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1.5rem;
+}
+.posts img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
